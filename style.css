@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("Image/gradient.png");
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100%;
+  line-height: 2;
+}
+.top {
+  height: 30px;
+  margin-top: 1px;
+  padding: 5px 0;
+}
+a {
+  color: black;
+  transition: color 0.4s;
+}
+a:hover {
+  color: rgb(0, 255, 255);
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+nav {
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin: 0 10px;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 8px solid white;
+  margin: 3px;
+  object-fit: cover;
+}
+
+.login {
+  padding: 2px 80px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 2px 2px white;
+}
+.login:hover {
+  color: greenyellow;
+}
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 5px;
+  color: black;
+  transition: color 0.4s;
+}
+.underline:hover {
+  color: red;
+}
+.cancel {
+  padding: 2px 80px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5%;
+  box-shadow: 2px 2px white;
+}
+.cancel:hover {
+  color: greenyellow;
+}
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  outline-style: none;
+  padding-left: 3px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+::placeholder {
+  color: #999;
+  transition: 0.2s ease;
+}
+input:focus::placeholder {
+  color: transparent;
+}
